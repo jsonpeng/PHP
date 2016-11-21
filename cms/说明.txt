@@ -1,0 +1,5 @@
+配置环境 Windows
+工具 WampServer notepad+
+文件目录放到 wamp下的www目录
+网页前端路由 ：localhost/cms/index.php
+网页后端路由 ：localhost/cms/index.php?c=admin&a=login 登录密码见数据库admin的表

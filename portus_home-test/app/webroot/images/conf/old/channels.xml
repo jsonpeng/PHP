@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChannelList>
+    <Channel>
+        <Name>DeviceStatus</Name>
+        <Class>com.portus.pilot.core.DeviceStatusNotificationChannel</Class>
+    </Channel>
+    <Channel>
+        <Name>Security</Name>
+        <Class>com.portus.pilot.security.SecurityChannel</Class>
+    </Channel>
+</ChannelList>

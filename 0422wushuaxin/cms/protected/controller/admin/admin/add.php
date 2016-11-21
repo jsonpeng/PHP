@@ -1,0 +1,12 @@
+<?php
+if(!empty($_POST)){
+	//1、接受参数
+	//2、执行添加
+	if(!insert('admin',$_POST)){
+		die('插入失败');
+	}
+	//3、跳转会首页
+	header('location:'.BASE_URL.'index.php?c=admin&a=index&admin=1');
+}
+//没有提交的，加载视图
+view('admin/add',array(),'admin');

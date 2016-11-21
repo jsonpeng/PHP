@@ -1,0 +1,31 @@
+<?
+$footer = $this->requestAction('footer/index');
+?>
+
+<div id="annoucement">
+    ANNOUNCEMENTS<br />
+
+<div class="date">December 20, 2012 </div>
+<div class="summary">
+<a href="/files/Utilities_Unbundled_13.pdf" style="text-decoration:none">
+Portus centre stage in Ernst & Young Utilities Unbundled</a>
+<p>
+Portus CEO Tim Lindquist charts future direction of the Smart Home in "Home at last".
+</p>
+</div>
+
+<div class="clear">&nbsp;</div>
+<div class="date">October 21, 2012 </div>
+<div class="summary">
+<a href="/in_the_news/press_release_20121021" style="text-decoration:none">
+Portus passes key milestone in Electric Vehicle integration with the Grid
+<p>
+Portus completes testing in partnership with nationally recognised utility.</p>
+</div>
+
+    
+</div>
+
+<div id="copyright">
+    Copyright &copy; <?= date('Y') ?> <?= $footer['settings']['siteName'] ?>. All rights Reserved.
+</div>

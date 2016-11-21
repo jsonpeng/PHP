@@ -1,0 +1,11 @@
+<?php 
+class ProductsController extends AppController {
+    var $uses = array('Page', 'DynamicPage');
+
+    function index() {
+    }
+    function startkits() {}
+    function subscription() {}
+    function accessories() {}
+}
+?>

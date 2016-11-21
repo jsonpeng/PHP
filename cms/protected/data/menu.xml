@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+	<controller>
+		<name en="news">新闻模块</name>
+		<action>
+			<name en="index">新闻列表</name>
+			<url><![CDATA[index.php?c=news&a=index&admin=1]]></url>
+		</action>
+		<action>
+			<name en="add">新闻添加</name>
+			<url><![CDATA[index.php?c=news&a=add&admin=1]]></url>
+		</action>
+	</controller>
+	<controller>
+		<name en="admin">管理员模块</name>
+		<action>
+			<name en="index">管理员列表</name>
+			<url><![CDATA[index.php?c=admin&a=index&admin=1]]></url>
+		</action>
+		<action>
+			<name en="add">管理员添加</name>
+			<url><![CDATA[index.php?c=admin&a=add&admin=1]]></url>
+		</action>
+	</controller>
+	<controller>
+		<name en="category">分类模块</name>
+		<action>
+			<name en="index">分类列表</name>
+			<url><![CDATA[index.php?c=category&a=index&admin=1]]></url>
+		</action>
+		<action>
+			<name en="add">分类添加</name>
+			<url><![CDATA[index.php?c=category&a=add&admin=1]]></url>
+		</action>
+	</controller>
+</menu>
